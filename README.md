@@ -78,12 +78,15 @@ Piece.change_pos(new_pos): Changes the position of the piece.
 ## Board:
 
 Manages the chessboard grid and the positioning of pieces.
+
 Methods for updating moves, drawing the board, selecting pieces, checking for check/checkmate, and moving pieces.
 
 ## Piece:
 
 Base class for all chess pieces, managing common attributes and methods.
+
 Subclasses: Bishop, King, Knight, Pawn, Queen, Rook.
+
 Methods for updating valid moves, drawing pieces, and changing positions.
 
 ## Player:
@@ -93,6 +96,7 @@ Manages player information such as name, color, and rating.
 ## Server:
 
 Manages client connections, game states, and communication between clients.
+
 Methods for handling client threads, updating ratings, and saving/loading ratings.
 
 ## Client:
