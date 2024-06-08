@@ -44,7 +44,9 @@ load_ratings(): Loads player ratings from a file.
 ## Client APIs:
 
 connect(): Connects the client to the server.
+
 send(data): Sends data to the server.
+
 receive(): Receives data from the server.
 
 
