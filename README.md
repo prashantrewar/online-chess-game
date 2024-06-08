@@ -53,16 +53,23 @@ receive(): Receives data from the server.
 ## Game Object APIs:
 
 Board.update_moves(): Updates the valid moves for all pieces on the board.
+
 Board.draw(win, color): Draws the board and pieces on the screen.
+
 Board.select(col, row, color): Handles piece selection and movement.
+
 Board.is_checked(color): Checks if the king of the given color is in check.
+
 Board.check_mate(color): Checks if the given color is in checkmate.
+
 Board.move(start, end, color): Moves a piece on the board and handles captures.
 
 ## Piece APIs:
 
 Piece.update_valid_moves(board): Updates the valid moves for the piece.
+
 Piece.draw(win, color): Draws the piece on the screen.
+
 Piece.change_pos(new_pos): Changes the position of the piece.
 
 
