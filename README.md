@@ -37,8 +37,6 @@ Run this command in the new terminal for each player.
 
 update_ratings(winner_color, loser_color): Updates player ratings after a game ends.
 
-update_capture_ratings(color, piece_value): Updates player ratings based on captured pieces.
-
 save_ratings(): Saves player ratings to a file.
 
 load_ratings(): Loads player ratings from a file.
